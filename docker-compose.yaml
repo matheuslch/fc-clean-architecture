@@ -4,7 +4,7 @@ services:
   
   app:
     build: .
-    container_name: repository_app
+    container_name: clean_architecture_app
     volumes:
       - .:/usr/src/app
       - node_modules:/usr/src/app/node_modules/
