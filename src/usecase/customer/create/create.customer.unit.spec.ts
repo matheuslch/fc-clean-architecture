@@ -45,7 +45,7 @@ describe("Unit test create customer use case", () => {
         input.name = "";
 
         await expect(customerCreateUseCase.execute(input)).rejects.toThrow(
-            "Customer name is required"
+            "customer: Name is required"
         );
     });
 
