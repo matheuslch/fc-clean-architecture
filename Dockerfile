@@ -9,7 +9,10 @@ RUN npm install && \
     npm i sequelize reflect-metadata sequelize-typescript && \
     npm i uuid @types/uuid && \
     npm i tslint --save-dev && \
-    npm i sqlite3
+    npm i sqlite3 && \
+    npm i express @types/express dotenv && \
+    npm i nodemon && \
+    npm i supertest @types/supertest
 
 COPY . .
 
