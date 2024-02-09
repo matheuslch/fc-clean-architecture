@@ -13,7 +13,9 @@ RUN npm install && \
     npm i express @types/express dotenv && \
     npm i nodemon && \
     npm i supertest @types/supertest && \
-    npm i -S yup
+    npm i -S yup && \
+    npm i jstoxml && \
+    npm i -D @types/jstoxml
 
 COPY . .
 
