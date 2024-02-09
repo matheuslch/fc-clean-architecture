@@ -12,7 +12,8 @@ RUN npm install && \
     npm i sqlite3 && \
     npm i express @types/express dotenv && \
     npm i nodemon && \
-    npm i supertest @types/supertest
+    npm i supertest @types/supertest && \
+    npm i -S yup
 
 COPY . .
 
